@@ -1,0 +1,141 @@
+\relax 
+\bibstyle{plainnat}
+\citation{tetstand}
+\citation{tetstand}
+\citation{melaxtetris}
+\citation{yaeltetris}
+\citation{kurt}
+\citation{hardtet}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{4}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\citation{tetstand}
+\citation{tetstand}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}Related Work}{5}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}Tetris}{5}}
+\citation{tetstand}
+\citation{mathproof}
+\citation{losetetris}
+\citation{mathproof}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Tetris game in progress}}{6}}
+\newlabel{fig:tetgame}{{2.1}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces The range of complete Tetris pieces as defined by \cite  {tetstand}}}{6}}
+\newlabel{fig:pieces}{{2.2}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Formal Tetris Specification \citep  {tetstand}}{6}}
+\citation{hardtet}
+\citation{suttonbarto}
+\citation{evvsrl}
+\citation{evvsrl}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}Mathematical foundations of Tetris}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}Solving NP-Complete problems}{7}}
+\citation{suttonbarto}
+\citation{suttonbarto}
+\citation{kaelbling96reinforcement}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}Reinforcement learning}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Theory}{8}}
+\citation{suttonbarto}
+\newlabel{eq:sarsa}{{2.1}{9}}
+\citation{suttonbarto}
+\citation{suttonbarto}
+\citation{boyan94packet}
+\citation{rlrobotics}
+\citation{suttonbarto}
+\citation{baxter98knightcap}
+\newlabel{eq:softmax}{{2.1}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Existing applications}{10}}
+\citation{suttonbarto}
+\citation{keepaway}
+\citation{keepaway}
+\citation{tdgammon}
+\citation{elevator}
+\citation{tdgammon}
+\citation{tdgammon}
+\citation{tdgammon}
+\citation{tdgammon}
+\citation{tdgammon}
+\citation{keepaway}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Large state-space successes}{11}}
+\@writefile{toc}{\contentsline {subsubsection}{TD-Gammon}{11}}
+\citation{keepaway}
+\citation{melaxtetris}
+\citation{melaxtetris}
+\citation{tetstand}
+\@writefile{toc}{\contentsline {subsubsection}{RoboCup-Soccer Keep-Away}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.4}Tetris}{12}}
+\@writefile{toc}{\contentsline {subsubsection}{\cite  {melaxtetris}}{12}}
+\citation{yaeltetris}
+\citation{yaeltetris}
+\@writefile{lot}{\contentsline {table}{\numberline {2.1}{\ignorespaces Melax's results for reduced Tetris}}{13}}
+\newlabel{mresults}{{2.1}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces Melax's results as taken from \cite  {melaxtetris}}}{13}}
+\newlabel{fig:meres}{{2.3}{13}}
+\@writefile{toc}{\contentsline {subsubsection}{\cite  {yaeltetris}}{13}}
+\citation{kurt}
+\citation{kurt}
+\citation{kurt}
+\citation{kurt}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces Bdolah \& Livnat's results as taken from \cite  {yaeltetris}}}{14}}
+\newlabel{fig:yaelres}{{2.4}{14}}
+\@writefile{toc}{\contentsline {subsubsection}{\cite  {kurt}}{14}}
+\citation{tetstand}
+\citation{keepaway}
+\citation{thrun93issues}
+\@writefile{lot}{\contentsline {table}{\numberline {2.2}{\ignorespaces Relational regression results \citep  {kurt}}}{15}}
+\newlabel{tbl:driessens}{{2.2}{15}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Design}{16}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Overview}{16}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Application design}{16}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}The investigation platform}{16}}
+\citation{designp}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Fly-weight design pattern}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Class diagram of reinforcement learning orientated Tetris}}{18}}
+\newlabel{fig:mirrorwell}{{3.1}{18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}UML}{18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}Designing the agent}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces The complete Tetris well}}{19}}
+\newlabel{fig:fullwell}{{3.2}{19}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Reducing the state space}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Height based Tetris well}}{20}}
+\newlabel{fig:heightwell}{{3.3}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Height difference based Tetris well}}{20}}
+\newlabel{fig:diffheightwell}{{3.4}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Capped height difference based Tetris well}}{21}}
+\newlabel{fig:capdiffheightwell}{{3.5}{21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Capped height difference based Tetris subwells}}{21}}
+\newlabel{fig:redwell}{{3.6}{21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Mirror identical states}}{21}}
+\newlabel{fig:mirrorwell}{{3.7}{21}}
+\citation{suttonbarto}
+\citation{suttonbarto}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Implementation}{23}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}General reinforcement learning}{23}}
+\citation{suttonbarto}
+\citation{melaxtetris}
+\citation{yaeltetris}
+\citation{melaxtetris}
+\citation{yaeltetris}
+\bibdata{finalwriteup}
+\bibcite{baxter98knightcap}{{1}{1998}{{Baxter et~al.}}{{Baxter, Trigdell, and Weaver}}}
+\bibcite{yaeltetris}{{2}{2000}{{Bdolah and Livnat}}{{}}}
+\bibcite{boyan94packet}{{3}{1994}{{Boyan and Littman}}{{}}}
+\bibcite{hardtet}{{4}{2004}{{Breukelaar et~al.}}{{Breukelaar, Demaine, Hohenberger, Hoogeboom, Kosters, and Liben-Nowell}}}
+\bibcite{mathproof}{{5}{1992}{{Brzustowski}}{{}}}
+\bibcite{losetetris}{{6}{July 1997}{{Burgiel}}{{}}}
+\bibcite{elevator}{{7}{1996}{{Crites and Barto}}{{}}}
+\bibcite{kurt}{{8}{2004}{{Driessens}}{{}}}
+\bibcite{tetstand}{{9}{2003}{{Fahey}}{{}}}
+\bibcite{designp}{{10}{1998}{{Gamma et~al.}}{{Gamma, Helm, Johnson, and Vlissides}}}
+\bibcite{kaelbling96reinforcement}{{11}{1996}{{Kaelbling et~al.}}{{Kaelbling, Littman, and Moore}}}
+\bibcite{rlrobotics}{{12}{1997}{{Kimura et~al.}}{{Kimura, Miyazaki, and Kobayashi}}}
+\bibcite{evvsrl}{{13}{2001}{{McLean}}{{}}}
+\bibcite{melaxtetris}{{14}{1998}{{Melax}}{{}}}
+\bibcite{suttonbarto}{{15}{2002}{{Sutton and Barto}}{{}}}
+\bibcite{keepaway}{{16}{2005}{{Sutton et~al.}}{{Sutton, Kuhlmann, and Stone}}}
+\bibcite{tdgammon}{{17}{1995}{{Tesauro}}{{}}}
+\bibcite{thrun93issues}{{18}{1993}{{Thrun and Schwartz}}{{}}}

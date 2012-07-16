@@ -1,0 +1,534 @@
+Tetris - Base game that goes through tetris steps
+
+gets Tetromino 
+gets next Tetromino <-- Optional
+
+moves/rotates Tetromino and notes progress of Tetromino in relation to the existing block structure.
+
+imposes time limit on decision time
+Notifys interactee of exceeded timelimit and affects game 
+----------| Update command would suffice here
+
+-------Polling versus update
+
+returns reward
+returns state
+returns tetromino
+returns next tetromino
+
+Tetris Window
+
+gets info from screen and sends information to Tetris game
+gets response
+listen for information from the game (Pass handle?)
+
+Displays ability of agent
+Agent must work through TetrisWindow interface
+Same as human, only sticks in digital keypresses and sees with pointers
+
+Agent
+
+sends information to Tetris game
+gets response
+listen for information from the game
+
+Tetromino Source
+
+handles creation and all manipulation of Tetrominos
+
+Tetromino
+
+Contains boolean array describing Tetromino
+Contains color associated with Tetromino
+Contains type number (We can obvious see shape, no point in having agent scan block for type)
+Assigned Color and correct array at manufacture
+
+---------------------------------------------------------------
+
+Currently all tetrominos are recreated when rotated
+This introduces some processing overhead, and is unneccessary due to flyweight oo design methods. Rather then creating object each time,
+have all objects created and then just return pointers as neccessary.
+
+---------------------------------------------------------------
+
+Combining TetrominoSource and Tetromino into one class would aid encapsulation.
+
+At moment
+
+Tetromino independent of Tetromin set characteristics.
+Tetromino source created once and used for all tetrominos
+Tetris oblivious to structure of Tetromino, or Tetromino set
+Tetris Window -- In order to draw classes, must be able to get information back from base classes. Cant be oblivious
+
+Changes to tetromino set require Change to TetrominoSource only.
+All else can be automatically updated.
+
+----------------------------------------------------------------
+
+I want the agents actions to be visible via the interface
+Of course the reset Button must be disabled, and keyboard listener revoked
+
+Can switch to player, or train
+
+----------------------------------------------------------------
+
+Very odd java error
+
+in ReducedRLPlayer :
+		..................
+		chosen = (Integer) maxValues.get(randNo.nextInt(maxValues.size())); <----Made this break
+		
+		........
+		
+		double delta = theGame.getReward() + gamma*rlMemory[hashArray(theGame.getBlocks())] - rlMemory[currentHashCode];
+		
+		//rlMemory[currentHashCode] = rlMemory[currentHashCode]*(1-alpha) + (theGame.getReward()+gamma*rlMemory[hashArray(theGame.getBlocks())])*alpha;
+					
+		rlMemory[currentHashCode] = rlMemory[currentHashCode] + alpha*delta; <-----Changing this
+		
+----------------------------------------------------------------
+
+just using  a state value function
+
+Not taking pieces into account
+Choose the state with the greatest value
+
+Update using reward and td value
+
+----------------------------------------------------------------
+
+Using optomism as the learning method in the reduced version of tetris. (a la Melax)
+
+----------------------------------------------------------------
+
+The deviation between my results and Melaxs, using melax's update functions are very unsettling
+My reduced tetris game can be played and witnessed to be bug free. Melax's was sans gui, so the perfect tetris functionality is based on faith
+
+----------------------------------------------------------------
+
+Update according to all possible future steps
+
+Updating (td) when going through virtual steps 
+
+Can't just apply update rule consecutively, else gamma term is applied repeated to initial updates.
+
+Need to form chain update rule.
+
+All differences between Q(0) and Q(+1) need to be summed. This needs to be multiplied by a gamma term and then added to Q(0)
+
+this had a detrimental effect on learning
+
+----------------------------------------------------------------
+
+Bootstrapping method : updates based on estimates 
+
+----------------------------------------------------------------
+
+Eligability traces are not suitable for reduced tetris.
+There is state cycling over a very short duration, and each state transition leads back to its fathering state within one placement.
+
+----------------------------------------------------------------
+
+using softmax for intelligent exploration, investigate
+
+----------------------------------------------------------------
+
+Introducing update at value finding stage : and tehre incorportaing difference between current state and all possible future states (1 step aehad) leads to rapid divergence -> Small alpha
+
+Still plugged at learning
+
+With reduced Tetris it seemed senisible to expect relative little importance resting on the future states, since teh states cycle to incredibly quickly. 2^12 states 4096, and one can bounce right round to onces current state in as little as one move (square on square)                              
+
+There is no depence on current block, since the destination is the thing with the value assoicated with it. If we knew the next block then it would be useful to associate a value for each state with each block.
+
+No look ahead considered at this point
+
+each level of look ahead increases complexity exponentially 
+
+----------------------------------------------------------------
+
+Epsilon greedy v Softmax
+Alpha and gamma variation
+Eligability traces <---- Only full game
+
+--------------------------------------------------------------
+
+possible approaches to reducing the state space :
+
+1) Optomisations - Mirror etc
+2) limited state space - dividing out the core
+3) approx methods - pre digested details from game
+
+--------------------------------------------------------------
+
+Considering the entire state space, greatly overspecifies the state space requirements of the agent
+Every state viewed reflected has a value assigned to it that will be identical (Should be in any case)
+
+One way to utilise this fact is via breaking the state space in half. The actual boolean array describing the stage can be split into two tables, both refering to the same value function.
+
+All pieces mirror symmetric -> all state values reversable
+Also indept of action so pointless point
+
+
+
+--------------------------------------------------------------
+
+Reduce small state space, then try on big
+
+--------------------------------------------------------------
+
+Positive numbers in value function <--- Not sure why or how they are there
+
+--------------------------------------------------------------
+
+My afterstates approach introduces some nasty complications
+
+1) Need to orientate blocks so they are at their skinniest, in order for the routine that
+shifts blocks across the screen to consider all options
+
+2) Need to handle occurance where block is against right wall and trying to rotate, need to explore other side of block
+
+I could rotate things externally and then insert them into the well to be placed accordingly
+Within the confines of starting at block 1,5
+	I could rotate first, then move accordingly <---- Flawed if initial pos defies rotation
+	Or I could move and the rotate accordingly <---- Initial approach, flawed if resting pos defies rotation
+	
+--------------------------------------------------------------
+
+Ideal have table of 2^200 states for evey single state
+
+Drawbacks : 	1) Impossible memory requiresments
+	 	2) Impossible to perform adequate exploration
+	 	3) Obvious redundency
+	 	
+Advantage :	1) Proven method	
+		2) Conceptually simple, with obvious advantages
+		3) Enables agent to explore and devise tactics sans interference from the 		progammer
+
+--------------------------------------------------------------
+
+Contours
+
+When playing tetris, you dont actually focus on the working height of the game. Rather you are aware of it	but your gamer play isnt completely revised. If a placement avoids generating covered spaces, and leads to high values it will do so regardless of the height.
+
+More succintly put : You dont really focus on the game beneath the contour layer of the well. You are aware of columns with covered blocks, but you dont spend your time focusing on these details.
+
+The complete contour information can be summed up in 20^10 states ~= 2^43
+
+This completely ignore all covered blocks and unforeseen information loss
+
+--------------------------------------------------------------
+Differences in height
+
+If we consider differences in height rather then contours alone we manage to reduce the state space from 20^10, to 20^9 
+
+--------------------------------------------------------------
+Differences in height reduced
+
+When we are considering different combinations of tetrominos and the worth of a state, then have contours with height differences ranging as high as 20 seems like overkill considering the max height of a tetromino is 4. Only one tetromino can satisfy a state with a height difference of 3, in a welling situation
+
+By dividing height differences into :
+					 4
+					 3
+					 2
+					 1
+					 0
+					-1
+					-2
+					-3
+					-4
+
+With one of these for each column - 1 (diff in height) we would have
+
+9^9 states which is vastly reduced
+
+All height differences greater then 4 would be taken down to 4.
+
+The net effect is that states with height differences
+
+-1 8 4 -9 -2 7 8 -5 4
+
+Would be taken down to :
+
+-1 4 4 -4 -2 4 4 -4 4
+
+Would this remove a great deal of information : I believe not
+I am effectively saying that beyond a certain point large height differences are as attractive as very large height differences.
+
+Since the agent is incredibly heavily punished at the time of death, states that lead to it will be severly punished and large height differences will be heavily punished, since there will be little row completion to offset the death reward. Low row heights would also be punished if the agent was playing well, and died with relatively tight placement at the top of the well. Hopefully row completion rewards would offset this punishment. 
+
+Either that or the agent may well start to unlearn his existing predictions.
+
+--------------------------------------------------------------
+
+Rewards
+
+Initial consideration :
+
+Death : -100
+row completion : 10 per row
+
+
+--------------------------------------------------------------
+
+
+Contours similarly contain redudent information.
+
+If you are looking at a certain contour, there are subcontours that are repeated across the width of the well. Since we are dealing with Tetrominos of width 4, there is no need to consider contour widths greater then this, or else we are introducing redundent information
+
+The combination of these contours will be tricky though. I can introduce a deterministic aid that factors height of final placement with value, in order to weight choice amongst contouretjies towards that which is best suited
+
+Instead of 9^9
+
+--------------------------------------------------------------
+
+By just storing contours I am discarding a wealth of information, contours that may be indredibly valueable if describing a solid structure, will mean something completely different if they are choc o bloc filled with covered gaps beneath them 
+
+May therefor may be constructive to consider an array of contours 4 wide for each of the combination of 4 covered holes exists states. 
+
+--------------------------------------------------------------
+
+Mirror symmetry can be applied throughout, considerably speeding up learning
+
+--------------------------------------------------------------
+
+Could try evolve some value function, taking state as input, and making approapriate choice. I dont quite see how this would be a reinforcement learning agent, since that is exactly what my deterministic player is doing.
+
+Surely there must be updating in order for it to be RL?
+
+---------------------------------------------------------------
+
+Different Approach
+
+---------------------------------------------------------------
+
+Height is important, but not supremely. Could get by with diving height in to 4 or 5 divisions. Should only start effecting states close to the point of demise.
+
+Have 10 columns, with 4 rows in each column.
+Then 5 of these "bands"
+
+forming the complete 10*20 well.
+
+If height of well structure exceeds height of band, can consider seperate bands considering which height they occur at.
+
+Rephrased. If the state displays incredible differences in row height, the current well descripotion can be broken into various heights, and the placement be considered in reference to each section of the complete arrangement.
+
+This would have a size of 5*2^40
+
+This could be reduced again, through mirror symmetry and reduction in height
+
+Since we can assume that height is fairly unimportant until late in the game, we can divide the states into early state and light states
+
+2*2^40 = 2^41
+
+This is 2 000 000 000 000 states
+
+--------------------------------------------------------------
+
+Again, considering a width greater then 4 seems preposerous, since that is the max width of the tetromino. Considering a zone of 4x4 is a little restrictive.
+
+This reduction leads to 2*2^16
+
+Reconstructing all the information out of this block is damn difficult
+
+--------------------------------------------------------------
+My intial 4*20 contour player only manages to rack up about 20 rows, and this isnt an inconsistent 20
+
+My first attempt I managed 19 <--- But I was using look ahead (aha!)
+
+24 on second attempt
+ 
+--------------------------------------------------------------
+
+Break-through
+
+I had been a fool and included theGame.getResults in my value discovery, rather then virtualgame.getResults. Net result was erratic behaviour on the part of my agent and a great deal of debugging.
+
+With correction, contour only agent plays very suavely and shows incredible promise. Incredible.
+
+Complete as many as 1120 rows with a state space equivalent to 2^80, using only 323 states
+This is using the reduced block set
+
+--------------------------------------------------------------
+
+getting a consistent 20 with the full block set, since I got 24 I am a happy camper
+Goes as high as 34, and rarely goes beneath 20
+
+--------------------------------------------------------------
+
+Have given agent ability to spot difference between structure with spaces and structur without spaces. Have one space boolean per column, that informs agent whether the column contains a space at some point or not. Since there is an incredible delay before presence of space becomes an issue, the implications may well be lost apon the agent. One way of remeding this would be to penalise the inclusions of gaps into the structure. This would punish states that lead to states with gaps, which isnt exactly what we are trying to achieve
+
+At the time of decision, the agent could factor the number of gaps into his decision. The problem with this is that the value function is no longer carrying this information. 
+
+For every tetromino type, certain transitions will introduce problems.
+
+Certain states are valuable, but not if in reaching them the agent introduces a vast number of covered spaces. This is the current problem.
+
+Stupid approach - abandoned
+
+--------------------------------------------------------------
+
+The number of holes has nothing to do with the state space. Since the state space has no facility for storing different hole arrangements, this information has to be conveyed in real time.
+
+--------------------------------------------------------------
+
+It is impossible for a state combined with a tetromino, to generate the same contour function, and therefor hash code, and have a  
+
+--------------------------------------------------------------
+
+Try playing with other types of introducing block -- and consequently guage death.
+Will subsequently alter investigation method
+
+move right ->
+rotate * 4
+
+cycle
+
+--------------------------------------------------------------
+
+There was very real learning occuring using the contour method with the reduced tetromino set. With the complete tetrominoes, the training period has a far less visible impact on the results.
+
+--------------------------------------------------------------
+
+The agent can not be expected to make perfect judgements based on the contour of the wells contents alone.
+
+I was using the reward to update the value of the current state, in line with sutton and Barto's learning. There was an incredible increase in accuracy when the reward was includeded into the steering of the decision process. Were the update function to be functioning correctly, I would hope that this weighting would not be neccessary.
+
+I am not thrilled with the current updating. The agent is free in his approaches, but there is very little updating ocurring.
+
+--------------------------------------------------------------
+
+Look out for cases where immediate reward dominates long term value functions.
+
+--------------------------------------------------------------
+
+There is no point in punishing teh state for enter a state that leads to death, if the state cant see the specifics of its demise.
+
+--------------------------------------------------------------
+
+associative search - Sutton Barto, Chapter 2.10
+
+Rather then just having an array of all the states, have an array depending on the current piece. This no only would contain information about the value of the next state but would enable the player to select the transition with the greatest reward, in heading towards the best state.
+
+This is a fallacy. The value function of the state is discovered before the piece is. This value function exists regardless of the piece assigned at nextPiece.
+
+There really should be absolutely no need to include the reward in the deciding process. The value funcion with converge to some value, and to consider a weighted image of the reward in addition to the value function greatly reduces the usefullness of the value function.
+
+--------------------------------------------------------------
+
+Problem :
+
+Getting a reward increases the attractive nature of the state of origin.
+But it doesnt increase the attractiveness of the destination state, and therefor the transition that led to the reward. So the agent will end up in the state of origin again, and possible not select the state which leads to the reward.
+
+Certain states are only attractive coming from certain other states. Current problem " Not enough updating rules, the only "good" states are those that complete rows. This neglects the fact that many long term dicy states also have modest row completion and look attractive like that.
+
+--------------------------------------------------------------
+
+Implement Show reasoning button
+
+-------------------------------------------------------------- 
+
+Finally fixed problem.
+Was selecting the correct action
+
+The actual final realisation of the final action still had moving before rotation, and therefor suffered terribly
+
+-------------------------------------------------------------- 
+
+Mirror sym should exist in all manifestations
+
+Each of the 28 different block orientations represents mirror sym sides equally, ie there is no probabilistic favouring of either mirror orientation
+
+-------------------------------------------------------------- 
+
+Mirror sym working again
+
+Agent learning takes off at 45 games now
+
+-------------------------------------------------------------- 
+
+Try to introduced run time covered blocks
+
+-------------------------------------------------------------- 
+
+Trouble doing step by step piece movements as the player gets out of sync.
+
+Tends to turn on restraining in the midst of exploration
+
+-------------------------------------------------------------- 
+
+My vertical swarth aqpproach, when applied to teh full tetris game, results in an uneven weighting towards the exploration of the middle section. Need to find a way of representing it so that the hashCodes array detects when the same transformation between wells
+
+-------------------------------------------------------------- 
+
+The player seems to experience major learning problems.
+Takes a hell of a long time for the player to stumble onto the fact that completeing rows is  a rewarding passtime.
+
+-------------------------------------------------------------- 
+
+Java can handle the memory requirements up to 9 rows wide, then collapses on home machine 
+
+-------------------------------------------------------------- 
+
+We ideally want to agent to learn what keads to death and avoid it.
+Punishing for height increase is a far too short sighted approach to differentiating between good and bad states
+
+-------------------------------------------------------------- 
+9/8/05
+
+Managed to get Multiple threads (window/agent) playing together nicely.
+
+-------------------------------------------------------------- 
+
+Need to implement :
+
+Averaging of values for same transition across different wells
+Look ahead depending on current block
+Which ties in with height associated information (Big punishment for death))
+
+-------------------------------------------------------------- 
+
+At moment loops that explore possible moves are oblivious to current well etc
+The array of hash codes keeping track of possible moves need'nt be unaware. By creating these hashcodes, and then succesfully averaging values when updating, can handle the same transitions various values across many wells, without including redudent values.
+
+ie. maintain single inclusion of value, if same transition is explore in one well.
+update value once if already exists.
+
+No need to use hash function in checking redundancy
+
+No of well & No of width checks multi-well transitions (redundancy)
+hashcode checks rotation based redudancy
+
+This takes place in context of constant piece
+
+Unique combo :
+
+This total is all important
+    |
+   \/
+(well + width) * hashcode  
+
+Check value
+if doesnt exist
+Check (well * width * rotation) 
+
+-------------------------------------------------------------- 
+
+Extending player trained extensively on four, and utilizing him on a well of width 5 (2*width 4) resulted in completely unsuccesful playing.
+
+--------------------------------------------------------------
+
+Have fixed a plathora of bugs
+
+--------------------------------------------------------------
+
+The interesting moves are the ones that are intelligent but not imediately rewarded, showing the strength of reinforcement learning 
+
+--------------------------------------------------------------
+
+pirana for reduced width 4
+
+pirana 2 trained for longer time
+
+pirana 3 w/o eligibility traces

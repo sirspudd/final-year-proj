@@ -1,0 +1,72 @@
+\begin{thebibliography}{10}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bdolah and Livnat(2000)]{yaeltetris}
+Yael Bdolah and Dror Livnat.
+\newblock Reinforcement learning playing tetris.
+\newblock 2000.
+\newblock URL
+  \url{http://www.math.tau.ac.il/~mansour/rl-course/student\_proj/livnat/tetri%
+s.html}.
+
+\bibitem[Breukelaar et~al.(2004)Breukelaar, Demaine, Hohenberger, Hoogeboom,
+  Kosters, and Liben-Nowell]{hardtet}
+Ron Breukelaar, Erik~D. Demaine, Susan Hohenberger, Hendrik~Jan Hoogeboom,
+  Walter~A. Kosters, and David Liben-Nowell.
+\newblock Tetris is hard, even to approximate.
+\newblock \emph{International Journal of Computational Geometry \&
+  Applications}, 14:1-2:\penalty0 41, 2004.
+\newblock URL \url{http://theory.csail.mit.edu/~dln/papers/tetris/tetris.pdf}.
+
+\bibitem[Brzustowski(1992)]{mathproof}
+John Brzustowski.
+\newblock Can you win at tetris?
+\newblock Master's thesis, University of British Columbia, 1992.
+
+\bibitem[Burgiel(1997)]{losetetris}
+Heidi Burgiel.
+\newblock How to lose at tetris.
+\newblock \emph{Mathematical Gazette}, 81:491:\penalty0 194--200, July 1997.
+\newblock URL
+  \url{http://www.findarticles.com/p/articles/mi\_qa3773/is\_199803/ai\_n87851%
+30}.
+
+\bibitem[Driessens(2004)]{kurt}
+Kurt Driessens.
+\newblock \emph{Relational Reinforcement Learning}.
+\newblock PhD thesis, Catholic University of Leuven, 2004.
+\newblock URL \url{http://www.cs.kuleuven.ac.be/~kurtd/PhD/}.
+
+\bibitem[Fahey(2003)]{tetstand}
+Colin~P. Fahey.
+\newblock Tetris specifications \& world records, 2003.
+\newblock URL
+  \url{http://www.colinfahey.com/2003jan\_tetris/2003jan\_tetris.htm}.
+
+\bibitem[Melax(1998)]{melaxtetris}
+Stan Melax.
+\newblock Reinforcement learning tetris example.
+\newblock 1998.
+\newblock URL \url{http://www.melax.com/tetris/}.
+
+\bibitem[Sutton and Barto(2002)]{suttonbarto}
+Richard~S. Sutton and Andrew~G. Barto.
+\newblock \emph{Reinforcement Learning: An Introduction}.
+\newblock The MIT Press, Cambridge, MA, 2002.
+\newblock URL \url{www.cs.ualberta.ca/sutton/book/ebook/index.html}.
+
+\bibitem[Sutton et~al.(2005)Sutton, Kuhlmann, and Stone]{keepaway}
+Richard~S. Sutton, Gregory Kuhlmann, and Peter Stone.
+\newblock Reinforement learning for robocup-soccer keepaway, 2005.
+
+\bibitem[Tesauro(1995)]{tdgammon}
+Gerald Tesauro.
+\newblock Temporal difference learning and td-gammon.
+\newblock \emph{Communications of the ACM}, 38\penalty0 (3), 1995.
+\newblock URL \url{www.research.ibm.com/massive/tdl.html}.
+
+\end{thebibliography}

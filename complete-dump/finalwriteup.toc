@@ -1,0 +1,48 @@
+\contentsline {chapter}{\numberline {1}Introduction}{6}
+\contentsline {chapter}{\numberline {2}Related Work}{8}
+\contentsline {section}{\numberline {2.1}Tetris}{8}
+\contentsline {section}{\numberline {2.2}Mathematical foundations of Tetris}{10}
+\contentsline {section}{\numberline {2.3}Solving NP-Complete problems}{11}
+\contentsline {section}{\numberline {2.4}Reinforcement learning}{11}
+\contentsline {subsection}{\numberline {2.4.1}The value function}{12}
+\contentsline {subsection}{\numberline {2.4.2}Eligibility traces}{13}
+\contentsline {subsection}{\numberline {2.4.3}Exploration}{14}
+\contentsline {subsection}{\numberline {2.4.4}Existing applications}{15}
+\contentsline {subsection}{\numberline {2.4.5}Large state space successes}{15}
+\contentsline {subsubsection}{TD-Gammon}{15}
+\contentsline {subsubsection}{RoboCup-Soccer Keep-Away}{16}
+\contentsline {subsection}{\numberline {2.4.6}Reinforcement in Tetris}{16}
+\contentsline {subsubsection}{\cite {melaxtetris}}{16}
+\contentsline {subsubsection}{\cite {yaeltetris}}{18}
+\contentsline {subsubsection}{\cite {kurt}}{19}
+\contentsline {section}{\numberline {2.5}Conclusion}{20}
+\contentsline {chapter}{\numberline {3}Design}{21}
+\contentsline {section}{\numberline {3.1}Redesigning the state space}{21}
+\contentsline {section}{\numberline {3.2}RL agent}{25}
+\contentsline {subsection}{\numberline {3.2.1}Discover transitions}{25}
+\contentsline {subsection}{\numberline {3.2.2}Calculate index}{26}
+\contentsline {subsubsection}{Incorporating mirror symmetry}{26}
+\contentsline {subsubsection}{Extending the game description}{26}
+\contentsline {subsection}{\numberline {3.2.3}Evaluate transitions}{27}
+\contentsline {subsection}{\numberline {3.2.4}Correcting for multiple sub-wells}{27}
+\contentsline {subsection}{\numberline {3.2.5}Exploration policies}{28}
+\contentsline {subsection}{\numberline {3.2.6}Update value function}{29}
+\contentsline {section}{\numberline {3.3}Application design}{29}
+\contentsline {section}{\numberline {3.4}Conclusion}{31}
+\contentsline {chapter}{\numberline {4}Melax defined player}{32}
+\contentsline {section}{\numberline {4.1}Melax Tetris }{32}
+\contentsline {section}{\numberline {4.2}Initial Melax results}{33}
+\contentsline {section}{\numberline {4.3}Mirror symmetry}{34}
+\contentsline {section}{\numberline {4.4}Different exploration policies}{35}
+\contentsline {section}{\numberline {4.5}RL constants}{36}
+\contentsline {section}{\numberline {4.6}Sarsa($\lambda $) agent}{37}
+\contentsline {section}{\numberline {4.7}Conclusion}{38}
+\contentsline {chapter}{\numberline {5}Contour Tetris}{40}
+\contentsline {section}{\numberline {5.1}Initial considerations}{40}
+\contentsline {section}{\numberline {5.2}TD(0) agent}{41}
+\contentsline {section}{\numberline {5.3}Sarsa($\lambda $) agent}{42}
+\contentsline {section}{\numberline {5.4}Conclusion}{43}
+\contentsline {chapter}{\numberline {6}Full Tetris}{45}
+\contentsline {section}{\numberline {6.1}Results}{45}
+\contentsline {section}{\numberline {6.2}Conclusion}{47}
+\contentsline {chapter}{\numberline {7}Concluding remarks}{50}

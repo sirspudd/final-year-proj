@@ -1,0 +1,47 @@
+\contentsline {chapter}{\numberline {1}Introduction}{6}
+\contentsline {chapter}{\numberline {2}Related Work}{8}
+\contentsline {section}{\numberline {2.1}Tetris}{8}
+\contentsline {subsection}{\numberline {2.1.1}General}{8}
+\contentsline {subsection}{\numberline {2.1.2}Mathematical foundations of Tetris}{10}
+\contentsline {section}{\numberline {2.2}Solving NP-Complete problems}{10}
+\contentsline {section}{\numberline {2.3}Reinforcement learning}{11}
+\contentsline {subsection}{\numberline {2.3.1}Theory}{11}
+\contentsline {subsection}{\numberline {2.3.2}Existing applications}{14}
+\contentsline {subsection}{\numberline {2.3.3}Large state-space successes}{15}
+\contentsline {subsubsection}{TD-Gammon}{15}
+\contentsline {subsubsection}{RoboCup-Soccer Keep-Away}{15}
+\contentsline {subsection}{\numberline {2.3.4}Reinforcement learning in Tetris}{16}
+\contentsline {subsubsection}{\cite {melaxtetris}}{16}
+\contentsline {subsubsection}{\cite {yaeltetris}}{17}
+\contentsline {subsubsection}{\cite {kurt}}{18}
+\contentsline {chapter}{\numberline {3}Design}{20}
+\contentsline {section}{\numberline {3.1}Application design}{20}
+\contentsline {subsection}{\numberline {3.1.1}Investigation platform overview}{20}
+\contentsline {subsection}{\numberline {3.1.2}Fly-weight design pattern}{22}
+\contentsline {section}{\numberline {3.2}Redesigning the state space}{22}
+\contentsline {chapter}{\numberline {4}Implementation}{26}
+\contentsline {section}{\numberline {4.1}Overview}{26}
+\contentsline {section}{\numberline {4.2}Reinforcement learning agent}{27}
+\contentsline {section}{\numberline {4.3}Discovering transitions}{27}
+\contentsline {section}{\numberline {4.4}Evaluating states}{27}
+\contentsline {section}{\numberline {4.5}Incorporating mirror symmetry}{28}
+\contentsline {section}{\numberline {4.6}Extending the game description}{28}
+\contentsline {section}{\numberline {4.7}Evaluating transitions}{28}
+\contentsline {section}{\numberline {4.8}Correcting for multiple sub-wells}{29}
+\contentsline {section}{\numberline {4.9}Policies}{29}
+\contentsline {section}{\numberline {4.10}Exploration}{30}
+\contentsline {section}{\numberline {4.11}Update value function}{30}
+\contentsline {chapter}{\numberline {5}Melax player}{31}
+\contentsline {section}{\numberline {5.1}Introduction}{31}
+\contentsline {section}{\numberline {5.2}Results}{32}
+\contentsline {subsection}{\numberline {5.2.1}Initial Melax results}{32}
+\contentsline {subsection}{\numberline {5.2.2}Mirror symmetry}{33}
+\contentsline {subsection}{\numberline {5.2.3}Different Policies}{33}
+\contentsline {subsection}{\numberline {5.2.4}Reinforcement learning constants}{35}
+\contentsline {subsection}{\numberline {5.2.5}Sarsa($\lambda $) agent}{36}
+\contentsline {chapter}{\numberline {6}Contour Player}{38}
+\contentsline {section}{\numberline {6.1}Introduction}{38}
+\contentsline {section}{\numberline {6.2}Afterstates agent}{38}
+\contentsline {section}{\numberline {6.3}Sarsa($\lambda $) agent}{40}
+\contentsline {chapter}{\numberline {7}Full Tetris}{42}
+\contentsline {chapter}{\numberline {8}Conclusions}{46}

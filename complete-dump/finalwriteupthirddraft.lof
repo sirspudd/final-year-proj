@@ -1,0 +1,41 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Tetris game in progress}}{6}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The range of complete Tetris pieces as defined by \cite {tetstand}}}{7}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Melax's reduced tetrominoes}}{15}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Melax's results as taken from \cite {melaxtetris}}}{16}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Bdolah and Livnat's results as taken from \cite {yaeltetris}}}{17}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The full Tetris well}}{20}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Height-based Tetris well}}{21}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Height difference-based Tetris well}}{21}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Capped height difference-based Tetris well}}{22}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Capped height difference-based Tetris subwells}}{22}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Mirror identical states}}{23}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Dividing of well into subwells}}{27}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Class diagram of reinforcement leaning oriented Tetris}}{29}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Our Melax-defined agent}}{32}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Results for the Melax-defined agent}}{32}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Performance impact of mirror symmetry}}{33}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Different exploration methods with optimistic learning}}{34}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Different learning methods without optimistic learning}}{35}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Impact of $\alpha $ on learning}}{36}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Performance of Sarsa(0) agent}}{37}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces TD(0) agent in well of width 4}}{40}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces TD(0) agent in well of width 5}}{40}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Contrasting hole inclusion}}{41}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Sarsa agent in well of width 4}}{42}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Sarsa agent at time of termination}}{43}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Sarsa agent in well of width 5}}{43}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Contrast between selecting biggest transition and taking the average of the transitions}}{44}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Comparison of extendability of subwell sizes with reduced tetrominoes}}{45}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Comparison of extendability of subwell sizes with standard tetrominoes}}{46}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces TD(0) agent in full well with reduced tetrominoes}}{46}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Sarsa agent in full well with reduced tetrominoes}}{47}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Sarsa agent in reduced well with full tetrominoes}}{47}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Sarsa agent in full well with full tetrominoes}}{47}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces TD(0) agent in full well with red tetrominoes}}{48}
+\addvspace {10\p@ }

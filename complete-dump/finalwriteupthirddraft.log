@@ -1,0 +1,700 @@
+This is pdfeTeX, Version 3.141592-1.20b-2.2 (MiKTeX 2.4) (preloaded format=latex 2005.10.14)  5 NOV 2005 17:44
+entering extended mode
+**C:/hons*project/finalwriteupthirddraft.tex
+(C:/hons project/finalwriteupthirddraft.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8a> and hyphenation patterns for english, french, german, ngerman, dumylang, nohyphenation, loaded.
+(rucsthesis.cls
+Document Class: rucsthesis 2001/04/21 v1.4e Standard LaTeX document class
+(C:\texmf\tex\latex\base\bk12.clo
+File: bk12.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+ (C:\texmf\tex\latex\ltxmisc\framed.sty
+Package: framed 2003/07/21 v 0.8a: framed or shaded text with page breaks
+\FrameRule=\dimen102
+\FrameSep=\dimen103
+)
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen104
+ (C:\texmf\tex\latex\psnfss\times.sty
+Package: times 2004/09/15 PSNFSS-v9.2 (SPQR) 
+)
+(C:\texmf\tex\latex\ltxmisc\a4wide.sty
+Package: a4wide 1994/08/30
+ (C:\texmf\tex\latex\ntgclass\a4.sty
+Package: a4 2004/04/15 v1.2g A4 based page layout
+)) (C:\texmf\tex\latex\setspace\setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (C:\texmf\tex\latex\ltxmisc\url.sty
+\Urlmuskip=\muskip10
+Package: url 2004/03/15  ver 3.1  Verb mode for urls, etc.
+)) (C:\texmf\tex\latex\graphics\color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+ (C:\texmf\tex\latex\00miktex\color.cfg
+File: color.cfg 2003/03/08 v1.0 MiKTeX 'color' configuration
+)
+Package color Info: Driver file: pdftex.def on input line 125.
+
+(C:\texmf\tex\latex\graphics\pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count88
+)) (C:\texmf\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\texmf\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+) (C:\texmf\tex\latex\graphics\graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+ (C:\texmf\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (C:\texmf\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2003/03/12 v1.1 MiKTeX 'graphics' configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+)
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+) (C:\texmf\tex\latex\natbib\natbib.sty
+Package: natbib 2003/06/06 7.1 (PWD)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 518.
+\c@NAT@ctr=\count89
+)
+No file finalwriteupthirddraft.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 16.
+(C:\texmf\tex\latex\psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) (C:\texmf\tex\context\base\supp-pdf.tex (C:\texmf\tex\context\base\supp-mis.tex
+loading : Context Support Macros / Miscellaneous (2004.10.26)
+\protectiondepth=\count90
+\scratchcounter=\count91
+\scratchtoks=\toks15
+\scratchdimen=\dimen107
+\scratchskip=\skip45
+\scratchmuskip=\muskip11
+\scratchbox=\box26
+\scratchread=\read1
+\scratchwrite=\write3
+\zeropoint=\dimen108
+\onepoint=\dimen109
+\onebasepoint=\dimen110
+\minusone=\count92
+\thousandpoint=\dimen111
+\onerealpoint=\dimen112
+\emptytoks=\toks16
+\nextbox=\box27
+\nextdepth=\dimen113
+\everyline=\toks17
+\!!counta=\count93
+\!!countb=\count94
+\recursecounter=\count95
+)
+loading : Context Support Macros / PDF (2004.03.26)
+\nofMPsegments=\count96
+\nofMParguments=\count97
+\MPscratchCnt=\count98
+\MPscratchDim=\dimen114
+\MPnumerator=\count99
+\everyMPtoPDFconversion=\toks18
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 18.
+ [1
+
+
+{psfonts.map}]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
+
+ []
+
+[1
+
+] [1
+
+]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
+
+No file finalwriteupthirddraft.toc.
+\tf@toc=\write4
+[1
+
+]
+No file finalwriteupthirddraft.lof.
+\tf@lof=\write5
+[2
+
+]
+No file finalwriteupthirddraft.lot.
+\tf@lot=\write6
+[3
+
+]
+Chapter 1.
+
+Package natbib Warning: Citation `hardtet' on page 4 undefined on input line 49.
+
+[4
+
+] [5]
+Chapter 2.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 59.
+<tetgame.jpg, id=36, 276.7941pt x 352.6776pt>
+File: tetgame.jpg Graphic file (type jpg)
+ <use tetgame.jpg>
+
+LaTeX Warning: Reference `fig:tetgame' on page 6 undefined on input line 68.
+
+
+LaTeX Warning: Reference `fig:pieces' on page 6 undefined on input line 68.
+
+[6
+
+ <tetgame.jpg>] <tetrisblocks.jpg, id=40, 684.3969pt x 162.6075pt>
+File: tetrisblocks.jpg Graphic file (type jpg)
+ <use tetrisblocks.jpg>
+
+Package natbib Warning: Citation `tetstand' on page 7 undefined on input line 73.
+
+
+Package natbib Warning: Citation `tetstand' on page 7 undefined on input line 79.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
+
+Package natbib Warning: Citation `tetstand' on page 7 undefined on input line 81.
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 83.
+(C:\texmf\tex\latex\psnfss\omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
+
+
+LaTeX Warning: Reference `fig:pieces' on page 7 undefined on input line 84.
+
+[7 <tetrisblocks.jpg>]
+
+Package natbib Warning: Citation `mathproof' on page 8 undefined on input line 97.
+
+
+Package natbib Warning: Citation `losetetris' on page 8 undefined on input line 97.
+
+
+LaTeX Warning: Reference `fig:pieces' on page 8 undefined on input line 97.
+
+
+Package natbib Warning: Citation `mathproof' on page 8 undefined on input line 97.
+
+
+Package natbib Warning: Citation `tetstand' on page 8 undefined on input line 99.
+
+
+Package natbib Warning: Citation `hardtet' on page 8 undefined on input line 101.
+
+
+Package natbib Warning: Citation `suttonbarto' on page 8 undefined on input line 103.
+
+[8]
+
+Package natbib Warning: Citation `evvsrl' on page 9 undefined on input line 109.
+
+
+Package natbib Warning: Citation `evvsrl' on page 9 undefined on input line 111.
+
+[9]
+
+Package natbib Warning: Citation `suttonbarto' on page 10 undefined on input line 121.
+
+
+Package natbib Warning: Citation `suttonbarto' on page 10 undefined on input line 123.
+
+
+Package natbib Warning: Citation `kaelbling96reinforcement' on page 10 undefined on input line 125.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 129.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 129.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 129.
+
+LaTeX Warning: Reference `eq:astates' on page 10 undefined on input line 129.
+
+
+LaTeX Warning: Reference `eq:sarsa' on page 10 undefined on input line 129.
+
+[10]
+
+LaTeX Warning: Reference `eq:astates' on page 11 undefined on input line 139.
+
+
+LaTeX Warning: Reference `eq:sarsa' on page 11 undefined on input line 139.
+
+
+Package natbib Warning: Citation `suttonbarto' on page 11 undefined on input line 145.
+
+
+LaTeX Warning: Reference `eq:sarsaelig' on page 11 undefined on input line 152.
+
+[11]
+
+LaTeX Warning: Reference `sec:valfunc' on page 12 undefined on input line 162.
+
+
+LaTeX Warning: Reference `eq:softmax' on page 12 undefined on input line 173.
+
+[12]
+
+Package natbib Warning: Citation `suttonbarto' on page 13 undefined on input line 182.
+
+
+Package natbib Warning: Citation `suttonbarto' on page 13 undefined on input line 186.
+
+
+Package natbib Warning: Citation `boyan94packet' on page 13 undefined on input line 189.
+
+
+Package natbib Warning: Citation `rlrobotics' on page 13 undefined on input line 190.
+
+
+Package natbib Warning: Citation `suttonbarto' on page 13 undefined on input line 191.
+
+
+Package natbib Warning: Citation `baxter98knightcap' on page 13 undefined on input line 192.
+
+
+Package natbib Warning: Citation `suttonbarto' on page 13 undefined on input line 195.
+
+
+Package natbib Warning: Citation `keepaway' on page 13 undefined on input line 195.
+
+
+Package natbib Warning: Citation `keepaway' on page 13 undefined on input line 198.
+
+
+Package natbib Warning: Citation `tdgammon' on page 13 undefined on input line 199.
+
+[13]
+
+Package natbib Warning: Citation `elevator' on page 14 undefined on input line 200.
+
+
+Package natbib Warning: Citation `tdgammon' on page 14 undefined on input line 207.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 207.
+
+Package natbib Warning: Citation `tdgammon' on page 14 undefined on input line 207.
+
+
+Package natbib Warning: Citation `tdgammon' on page 14 undefined on input line 207.
+
+
+Package natbib Warning: Citation `tdgammon' on page 14 undefined on input line 207.
+
+
+Package natbib Warning: Citation `tdgammon' on page 14 undefined on input line 211.
+
+
+Package natbib Warning: Citation `keepaway' on page 14 undefined on input line 215.
+
+
+Package natbib Warning: Citation `keepaway' on page 14 undefined on input line 217.
+
+
+Package natbib Warning: Citation `melaxtetris' on page 14 undefined on input line 225.
+
+
+LaTeX Warning: Reference `fig:melaxpieces' on page 14 undefined on input line 225.
+
+[14] <reducedblocks.png, id=84, 556.0775pt x 513.92pt>
+File: reducedblocks.png Graphic file (type png)
+ <use reducedblocks.png>
+
+LaTeX Warning: Reference `mresults' on page 15 undefined on input line 238.
+
+
+LaTeX Warning: Reference `fig:meres' on page 15 undefined on input line 238.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<melaxresults.png, id=85, 284.06125pt x 285.065pt>
+File: melaxresults.png Graphic file (type png)
+ <use melaxresults.png>
+
+Package natbib Warning: Citation `melaxtetris' on page 15 undefined on input line 264.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15 <reducedblocks.png>]
+
+Package natbib Warning: Citation `yaeltetris' on page 16 undefined on input line 274.
+
+[16 <melaxresults.png>] <results.png, id=94, 588.1975pt x 368.37625pt>
+File: results.png Graphic file (type png)
+ <use results.png>
+
+Package natbib Warning: Citation `yaeltetris' on page 17 undefined on input line 279.
+
+
+LaTeX Warning: Reference `fig:yaelres' on page 17 undefined on input line 283.
+
+
+LaTeX Warning: Reference `melaxchapt' on page 17 undefined on input line 285.
+
+
+Package natbib Warning: Citation `kurt' on page 17 undefined on input line 293.
+
+[17 <results.png>]
+
+Package natbib Warning: Citation `kurt' on page 18 undefined on input line 295.
+
+
+LaTeX Warning: Reference `tbl:driessens' on page 18 undefined on input line 297.
+
+
+Package natbib Warning: Citation `kurt' on page 18 undefined on input line 312.
+
+
+Package natbib Warning: Citation `tetstand' on page 18 undefined on input line 318.
+
+
+Package natbib Warning: Citation `keepaway' on page 18 undefined on input line 320.
+
+
+Package natbib Warning: Citation `thrun93issues' on page 18 undefined on input line 320.
+
+[18] [19]
+Chapter 3.
+
+LaTeX Warning: Reference `fig:fullwell' on page 20 undefined on input line 334.
+
+<fullwell.png, id=105, 259.97125pt x 520.94624pt>
+File: fullwell.png Graphic file (type png)
+ <use fullwell.png>
+
+Package natbib Warning: Citation `yaeltetris' on page 20 undefined on input line 348.
+
+[20
+
+ <fullwell.png>] <heightwell.png, id=109, 259.97125pt x 520.94624pt>
+File: heightwell.png Graphic file (type png)
+ <use heightwell.png>
+<diffheightwell.png, id=110, 259.97125pt x 180.675pt>
+File: diffheightwell.png Graphic file (type png)
+ <use diffheightwell.png> [21 <heightwell.png> <diffheightwell.png>] <capdiffheightwell.png, id=114, 259.97125pt x 131.4
+9126pt>
+File: capdiffheightwell.png Graphic file (type png)
+ <use capdiffheightwell.png>
+<reducedwell.png, id=115, 104.39pt x 104.39pt>
+File: reducedwell.png Graphic file (type png)
+ <use reducedwell.png>
+<reducedwell2.png, id=116, 103.38625pt x 105.39375pt>
+File: reducedwell2.png Graphic file (type png)
+ <use reducedwell2.png>
+<reducedwell3.png, id=117, 104.39pt x 103.38625pt>
+File: reducedwell3.png Graphic file (type png)
+ <use reducedwell3.png>
+<reducedwell4.png, id=118, 103.38625pt x 105.39375pt>
+File: reducedwell4.png Graphic file (type png)
+ <use reducedwell4.png> [22 <capdiffheightwell.png> <reducedwell.png> <reducedwell2.png> <reducedwell3.png> <reducedwell
+4.png>]
+File: reducedwell.png Graphic file (type png)
+ <use reducedwell.png>
+<mirrorwell.png, id=123, 104.39pt x 104.39pt>
+File: mirrorwell.png Graphic file (type png)
+ <use mirrorwell.png> [23 <mirrorwell.png>] [24] [25]
+
+LaTeX Warning: Reference `fig:subwells' on page 26 undefined on input line 499.
+
+<decomposedwell.png, id=133, 352.31625pt x 694.595pt>
+File: decomposedwell.png Graphic file (type png)
+ <use decomposedwell.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[26] [27 <decomposedwell.png>]
+
+LaTeX Warning: Reference `eq:astates' on page 28 undefined on input line 526.
+
+
+LaTeX Warning: Reference `eq:sarsaelig' on page 28 undefined on input line 526.
+
+[28]
+
+LaTeX Warning: Reference `fig:uml' on page 29 undefined on input line 548.
+
+<finaluml.png, id=144, 570.933pt x 400.3758pt>
+File: finaluml.png Graphic file (type png)
+ <use finaluml.png> [29 <finaluml.png>]
+
+Package natbib Warning: Citation `designp' on page 30 undefined on input line 561.
+
+[30]
+Chapter 4.
+
+LaTeX Warning: Reference `fig:melaxpieces' on page 31 undefined on input line 580.
+
+
+Package natbib Warning: Citation `melaxtetris' on page 31 undefined on input line 584.
+
+
+LaTeX Warning: Reference `fig:mymelax' on page 31 undefined on input line 586.
+
+<mymelax.png, id=151, 404.51125pt x 511.9125pt>
+File: mymelax.png Graphic file (type png)
+ <use mymelax.png> [31
+
+]
+
+LaTeX Warning: Reference `fig:mymelaxresults' on page 32 undefined on input line 597.
+
+<mymelaxresults.png, id=155, 766.865pt x 521.95pt>
+File: mymelaxresults.png Graphic file (type png)
+ <use mymelaxresults.png> [32 <mymelax.png> <mymelaxresults.png>]
+
+Package natbib Warning: Citation `yaeltetris' on page 33 undefined on input line 612.
+
+
+LaTeX Warning: Reference `fig:comparemelax' on page 33 undefined on input line 612.
+
+
+Package natbib Warning: Citation `yaeltetris' on page 33 undefined on input line 612.
+
+<mirrormelax.png, id=159, 778.91pt x 526.96875pt>
+File: mirrormelax.png Graphic file (type png)
+ <use mirrormelax.png>
+
+LaTeX Warning: Reference `fig:compexpopt' on page 33 undefined on input line 623.
+
+
+LaTeX Warning: Reference `fig:compexp' on page 33 undefined on input line 623.
+
+[33 <mirrormelax.png>] <optomisticexp.png, id=163, 900.36375pt x 622.325pt>
+File: optomisticexp.png Graphic file (type png)
+ <use optomisticexp.png>
+<nonoptomisticexp.png, id=164, 905.3825pt x 626.34pt>
+File: nonoptomisticexp.png Graphic file (type png)
+ <use nonoptomisticexp.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[34 <optomisticexp.png>]
+
+LaTeX Warning: Reference `fig:alpha' on page 35 undefined on input line 655.
+
+<alphacomp.png, id=169, 914.41624pt x 625.33624pt>
+File: alphacomp.png Graphic file (type png)
+ <use alphacomp.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35 <nonoptomisticexp.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 668.
+
+
+LaTeX Warning: Reference `fig:melaxsarsa' on page 36 undefined on input line 672.
+
+<sarsamelax.png, id=173, 914.41624pt x 625.33624pt>
+File: sarsamelax.png Graphic file (type png)
+ <use sarsamelax.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[36 <alphacomp.png>] [37 <sarsamelax.png>] [38]
+Chapter 5.
+
+LaTeX Warning: Reference `fig:afterstatesredtet4well' on page 39 undefined on input line 711.
+
+
+LaTeX Warning: Reference `fig:afterstatesredtet5well' on page 39 undefined on input line 711.
+
+<afterstatesredtet4well.png, id=183, 927.465pt x 630.355pt>
+File: afterstatesredtet4well.png Graphic file (type png)
+ <use afterstatesredtet4well.png> [39
+
+]
+<afterstatesredtet5well.png, id=187, 913.4125pt x 618.31pt>
+File: afterstatesredtet5well.png Graphic file (type png)
+ <use afterstatesredtet5well.png> [40 <afterstatesredtet4well.png> <afterstatesredtet5well.png>] <worthless.png, id=192,
+ 104.39pt x 104.39pt>
+File: worthless.png Graphic file (type png)
+ <use worthless.png>
+<notworthless.png, id=193, 104.39pt x 104.39pt>
+File: notworthless.png Graphic file (type png)
+ <use notworthless.png>
+
+LaTeX Warning: Reference `fig:sarsaeligredtet4well' on page 41 undefined on input line 749.
+
+
+LaTeX Warning: Reference `fig:sarsaeligredtet5well' on page 41 undefined on input line 749.
+
+<sarsaeligredtet4well.png, id=194, 915.42pt x 685.56125pt>
+File: sarsaeligredtet4well.png Graphic file (type png)
+ <use sarsaeligredtet4well.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:sarsaelig4term' on page 41 undefined on input line 758.
+
+<sarsaelig4term.png, id=195, 352.31625pt x 531.9875pt>
+File: sarsaelig4term.png Graphic file (type png)
+ <use sarsaelig4term.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<sarsaeligredtet5well.png, id=196, 912.40875pt x 617.30624pt>
+File: sarsaeligredtet5well.png Graphic file (type png)
+ <use sarsaeligredtet5well.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[41 <worthless.png> <notworthless.png>] [42 <sarsaeligredtet4well.png>] [43 <sarsaelig4term.png> <sarsaeligredtet5well.p
+ng>]
+Chapter 6.
+<multisingle.png, id=206, 925.4575pt x 624.3325pt>
+File: multisingle.png Graphic file (type png)
+ <use multisingle.png> [44
+
+ <multisingle.png>]
+
+LaTeX Warning: Reference `fig:widthcomparrison' on page 45 undefined on input line 805.
+
+
+LaTeX Warning: Reference `fig:widthcomparrisonfulltet' on page 45 undefined on input line 805.
+
+<widthcomparrison.png, id=210, 885.3075pt x 638.385pt>
+File: widthcomparrison.png Graphic file (type png)
+ <use widthcomparrison.png>
+<widthcomparrisonfulltet.png, id=211, 771.88374pt x 538.01pt>
+File: widthcomparrisonfulltet.png Graphic file (type png)
+ <use widthcomparrisonfulltet.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[45 <widthcomparrison.png>]
+
+LaTeX Warning: Reference `fig:afterstatesredtetfullwell' on page 46 undefined on input line 829.
+
+
+LaTeX Warning: Reference `fig:sarsaeligredtetfullwell' on page 46 undefined on input line 829.
+
+<afterstatesredtetfullwell.png, id=215, 929.4725pt x 629.35126pt>
+File: afterstatesredtetfullwell.png Graphic file (type png)
+ <use afterstatesredtetfullwell.png>
+<sarsaeligredtetfullwell.png, id=216, 934.49126pt x 632.3625pt>
+File: sarsaeligredtetfullwell.png Graphic file (type png)
+ <use sarsaeligredtetfullwell.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<sarsaeligfulltetredwell.png, id=217, 932.48375pt x 637.38126pt>
+File: sarsaeligfulltetredwell.png Graphic file (type png)
+ <use sarsaeligfulltetredwell.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<sarsaeligfulltetfullwell.png, id=218, 932.48375pt x 637.38126pt>
+File: sarsaeligfulltetfullwell.png Graphic file (type png)
+ <use sarsaeligfulltetfullwell.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<afterstatesheightredtetfullwell.png, id=219, 927.465pt x 632.3625pt>
+File: afterstatesheightredtetfullwell.png Graphic file (type png)
+ <use afterstatesheightredtetfullwell.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[46 <widthcomparrisonfulltet.png> <afterstatesredtetfullwell.png>] [47 <sarsaeligredtetfullwell.png> <sarsaeligfulltetre
+dwell.png> <sarsaeligfulltetfullwell.png>] [48 <afterstatesheightredtetfullwell.png>]
+Chapter 7.
+No file finalwriteupthirddraft.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[49
+
+] (finalwriteupthirddraft.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1823 strings out of 95517
+ 22826 string characters out of 1189520
+ 67792 words of memory out of 1068496
+ 4772 multiletter control sequences out of 60000
+ 26873 words of font info for 53 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 607
+ 29i,8n,25p,1167b,214s stack positions out of 1500i,500n,5000p,200000b,32768s
+PDF statistics:
+ 232 PDF objects out of 300000
+ 0 named destinations out of 300000
+ 191 words of extra memory for PDF output out of 65536
+<C:\texmf\fonts\type1\bluesky\cm\cmmi6.pfb><C:\texmf\fonts\type1\bluesky\cm\cmr8.pfb><C:\texmf\fonts\type1\bluesky\cm\
+cmmi8.pfb><C:\texmf\fonts\type1\bluesky\cm\cmr12.pfb><C:\texmf\fonts\type1\bluesky\cm\cmmi12.pfb><C:\texmf\fonts\type1\b
+luesky\cm\cmsy10.pfb>{8r.enc}<C:\texmf\fonts\type1\urw\urwstd\utmr8a.pfb><C:\texmf\fonts\type1\urw\urwstd\utmb8a.pfb><C:
+\texmf\fonts\type1\urw\urwstd\utmr8a.pfb>
+Output written on finalwriteupthirddraft.pdf (52 pages, 752938 bytes).

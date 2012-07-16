@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.4)
+The top-level auxiliary file: litreviewfinalhandin.aux
+The style file: plainnat.bst
+Database file #1: litreview.bib
+Warning--empty journal in yaeltetris
+Warning--empty journal in melaxtetris
+You've used 20 entries,
+            2774 wiz_defined-function locations,
+            720 strings with 8582 characters,
+and the built_in function-call counts, 8455 in all, are:
+= -- 793
+> -- 443
+< -- 20
++ -- 151
+- -- 131
+* -- 570
+:= -- 1340
+add.period$ -- 77
+call.type$ -- 20
+change.case$ -- 78
+chr.to.int$ -- 20
+cite$ -- 42
+duplicate$ -- 402
+empty$ -- 706
+format.name$ -- 165
+if$ -- 1827
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 14
+newline$ -- 119
+num.names$ -- 86
+pop$ -- 211
+preamble$ -- 1
+purify$ -- 60
+quote$ -- 0
+skip$ -- 321
+stack$ -- 0
+substring$ -- 212
+swap$ -- 57
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 215
+warning$ -- 2
+while$ -- 77
+width$ -- 0
+write$ -- 288
+(There were 2 warnings)

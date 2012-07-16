@@ -1,0 +1,128 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass{rucsthesis}
+# Book textclass definition file. Taken from initial LyX source code
+# Adapted to computer science house style for theses, Shaun Bangay.
+# Author : Matthias Ettrich <ettrich@informatik.uni-tuebingen.de>
+# Transposed by Pascal Andr�<andre@via.ecp.fr>
+# Heavily modifed and enhanced by serveral developers.
+
+# Input general definitions
+Input stdclass.inc
+
+# Global parameters.
+Sides		2
+PageStyle	Headings
+
+# a few changes to the bibliography
+Style Bibliography
+  TopSep		4
+  LabelString		References
+  # label font definition
+  LabelFont 
+    Series		Bold
+    Size		Huge
+  EndFont
+End
+
+Style HonoursDeclaration
+  Margin                Static
+  LatexType             Command
+  LatexName             partialdeclaration
+  InTitle               1
+  NextNoIndent          1
+  LeftMargin            MMM
+  RightMargin           MMM
+  TopSep                0.5
+  BottomSep             0.5
+  Align                 Block
+  AlignPossible         Block
+  LabelSep              xxx
+  LabelType             Top_Environment
+  LabelString           "Submitted in partial fulfilment of the requirements of the degree"
+  EndLabelType          Static
+  EndLabelString        "of Rhodes University"
+  FreeSpacing           1
+ 
+  # standard font definition
+  Font
+    Color               blue
+  EndFont
+End
+
+Style MastersDeclaration
+  Margin                Static
+  LatexType             Command
+  LatexName             fulldeclaration
+  InTitle               1
+  NextNoIndent          1
+  LeftMargin            MMM
+  RightMargin           MMM
+  TopSep                0.5
+  BottomSep             0.5
+  Align                 Block
+  AlignPossible         Block
+  LabelSep              xxx
+  LabelType             Top_Environment
+  LabelString           "Submitted in fulfilment of the requirements of the degree"
+  EndLabelType          Static
+  EndLabelString        "of Rhodes University"
+  FreeSpacing           1
+ 
+  # standard font definition
+  Font
+    Color               blue
+  EndFont
+ 
+End
+                                                                                
+Style PhDDeclaration
+  Margin                Static
+  LatexType             Command
+  LatexName             fulldeclaration
+  InTitle               1
+  NextNoIndent          1
+  LeftMargin            MMM
+  RightMargin           MMM
+  TopSep                0.5
+  BottomSep             0.5
+  Align                 Block
+  AlignPossible         Block
+  LabelSep              xxx
+  LabelType             Top_Environment
+  LabelString           "Submitted in fulfilment of the requirements of the degree"
+  EndLabelType          Static
+  EndLabelString        "of Rhodes University"
+  FreeSpacing           1
+ 
+  # standard font definition
+  Font
+    Color               blue
+  EndFont
+ 
+End
+                                                                                
+Style Acknowledgements
+  Margin                Static
+  LatexType             Environment
+  LatexName             acknowledgements
+  NextNoIndent          1
+  LeftMargin            MMM
+  RightMargin           MMM
+  ParIndent             MM
+  ItemSep               0
+  TopSep                0.7
+  BottomSep             0.7
+  ParSep                0
+  Align                 Block
+  AlignPossible         Block
+  LabelType             Centered_Top_Environment
+  LabelString           Acknowledgements
+  LabelBottomSep    0.5
+
+  # label font definition
+  LabelFont
+    Series              Bold
+    Size                Large
+  EndFont
+
+End

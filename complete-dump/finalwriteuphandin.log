@@ -1,0 +1,493 @@
+This is pdfeTeX, Version 3.141592-1.20a-2.2 (MiKTeX 2.4) (preloaded format=latex 2005.8.17)  7 NOV 2005 07:37
+entering extended mode
+**finalwriteuphandin.tex
+(finalwriteuphandin.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8a> and hyphenation patterns for english, french, german, ngerman, du
+mylang, nohyphenation, loaded.
+(rucsthesis.cls
+Document Class: rucsthesis 2001/04/21 v1.4e Standard LaTeX document class
+(C:\texmf\tex\latex\base\bk12.clo
+File: bk12.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+ (C:\texmf\tex\latex\ltxmisc\framed.sty
+Package: framed 2003/07/21 v 0.8a: framed or shaded text with page breaks
+\FrameRule=\dimen102
+\FrameSep=\dimen103
+)
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen104
+
+(C:\texmf\tex\latex\psnfss\times.sty
+Package: times 2004/09/15 PSNFSS-v9.2 (SPQR) 
+) (C:\texmf\tex\latex\ltxmisc\a4wide.sty
+Package: a4wide 1994/08/30
+
+(C:\texmf\tex\latex\ntgclass\a4.sty
+Package: a4 2004/04/15 v1.2g A4 based page layout
+)) (C:\texmf\tex\latex\setspace\setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+Package: `setspace' 6.7 <2000/12/01>
+) (C:\texmf\tex\latex\ltxmisc\url.sty
+\Urlmuskip=\muskip10
+Package: url 2004/03/15  ver 3.1  Verb mode for urls, etc.
+)) (C:\texmf\tex\latex\graphics\color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+
+(C:\texmf\tex\latex\00miktex\color.cfg
+File: color.cfg 2003/03/08 v1.0 MiKTeX 'color' configuration
+)
+Package color Info: Driver file: pdftex.def on input line 125.
+ (C:\texmf\tex\latex\graphics\pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count88
+)) (C:\texmf\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\texmf\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(C:\texmf\tex\latex\graphics\graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+ (C:\texmf\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (C:\texmf\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2003/03/12 v1.1 MiKTeX 'graphics' configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+)
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+(C:\texmf\tex\latex\natbib\natbib.sty
+Package: natbib 2003/06/06 7.1 (PWD)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 518.
+\c@NAT@ctr=\count89
+) (finalwriteuphandin.aux
+
+LaTeX Warning: Label `fig:yaelres' multiply defined.
+
+
+LaTeX Warning: Label `fig:afterstatesredtetfullwell' multiply defined.
+
+
+LaTeX Warning: Label `fig:sarsaeligredtet5well' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 16.
+ (C:\texmf\tex\latex\psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) (C:\texmf\tex\context\base\supp-pdf.tex (C:\texmf\tex\context\base\supp-mis.t
+ex
+loading : Context Support Macros / Miscellaneous 
+\protectiondepth=\count90
+\scratchcounter=\count91
+\scratchtoks=\toks15
+\scratchdimen=\dimen107
+\scratchskip=\skip45
+\scratchmuskip=\muskip11
+\scratchbox=\box26
+\scratchread=\read1
+\scratchwrite=\write3
+\zeropoint=\dimen108
+\onepoint=\dimen109
+\onebasepoint=\dimen110
+\minusone=\count92
+\thousandpoint=\dimen111
+\onerealpoint=\dimen112
+\emptytoks=\toks16
+\nextbox=\box27
+\nextdepth=\dimen113
+\everyline=\toks17
+\!!counta=\count93
+\!!countb=\count94
+\recursecounter=\count95
+)
+loading : Context Support Macros / PDF (2004.03.26)
+\nofMPsegments=\count96
+\nofMParguments=\count97
+\everyMPtoPDFconversion=\toks18
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 18.
+ [1
+
+
+{psfonts.map}]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
+
+ []
+
+[1
+
+] [1
+
+]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
+ (finalwriteuphandin.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3.
+ [1
+
+])
+\tf@toc=\write4
+ [2] (finalwriteuphandin.lof [3
+
+])
+\tf@lof=\write5
+ [4]
+(finalwriteuphandin.lot)
+\tf@lot=\write6
+ [5
+
+]
+Chapter 1.
+[6
+
+] [7]
+Chapter 2.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
+<tetgame.jpg, id=43, 276.7941pt x 352.6776pt>
+File: tetgame.jpg Graphic file (type jpg)
+ <use tetgame.jpg> [8
+
+ <tetgame.jpg>] <tetrisblocks.jpg, id=47, 684.3969pt x 162.6075pt>
+File: tetrisblocks.jpg Graphic file (type jpg)
+ <use tetrisblocks.jpg>
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 82.
+
+(C:\texmf\tex\latex\psnfss\omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 82.
+ [9 <tetrisblocks.jpg>] [10]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 116.
+ [11] [12]
+[13] [14] [15] [16] <reducedblocks.png, id=89, 556.0775pt x 513.92pt>
+File: reducedblocks.png Graphic file (type png)
+
+<use reducedblocks.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<melaxresults.png, id=90, 284.06125pt x 285.065pt>
+File: melaxresults.png Graphic file (type png)
+ <use melaxresults.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17] [18 <reducedblocks.png>] <results.png, id=97, 588.1975pt x 368.37625pt>
+File: results.png Graphic file (type png)
+
+<use results.png> [19 <melaxresults.png> <results.png>]
+Overfull \hbox (9.7426pt too wide) in paragraph at lines 289--290
+[]\OT1/ptm/m/n/12 Driessens ap-proached the prob-lem with three sep-a-rate re-l
+a-tional re-gres-sion meth-ods [Driessens,
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20] [21]
+Chapter 3.
+<fullwell.png, id=109, 259.97125pt x 520.94624pt>
+File: fullwell.png Graphic file (type png)
+ <use fullwell.png> [22
+
+ <fullwell.png>] <heightwell.png, id=114, 259.97125pt x 520.94624pt>
+File: heightwell.png Graphic file (type png)
+
+<use heightwell.png> <diffheightwell.png, id=115, 259.97125pt x 180.675pt>
+File: diffheightwell.png Graphic file (type png)
+
+<use diffheightwell.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23 <heightwell.png>]
+<capdiffheightwell.png, id=119, 259.97125pt x 131.49126pt>
+File: capdiffheightwell.png Graphic file (type png)
+
+<use capdiffheightwell.png> <reducedwell.png, id=120, 104.39pt x 104.39pt>
+File: reducedwell.png Graphic file (type png)
+
+<use reducedwell.png> <reducedwell2.png, id=121, 103.38625pt x 105.39375pt>
+File: reducedwell2.png Graphic file (type png)
+
+<use reducedwell2.png> <reducedwell3.png, id=122, 104.39pt x 103.38625pt>
+File: reducedwell3.png Graphic file (type png)
+
+<use reducedwell3.png> <reducedwell4.png, id=123, 103.38625pt x 105.39375pt>
+File: reducedwell4.png Graphic file (type png)
+
+<use reducedwell4.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: reducedwell.png Graphic file (type png)
+<use reducedwell.png> <mirrorwell.png, id=124, 104.39pt x 104.39pt>
+File: mirrorwell.png Graphic file (type png)
+
+<use mirrorwell.png> [24 <diffheightwell.png> <capdiffheightwell.png>] [25 <red
+ucedwell.png> <reducedwell2.png> <reducedwell3.png> <reducedwell4.png> <mirrorw
+ell.png>] [26] [27] <decomposedwell.png, id=137, 352.31625pt x 694.595pt>
+File: decomposedwell.png Graphic file (type png)
+
+<use decomposedwell.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[28] [29 <decomposedwell.png>] <finaluml.png, id=145, 570.933pt x 400.3758pt>
+File: finaluml.png Graphic file (type png)
+
+<use finaluml.png> [30] [31 <finaluml.png>] [32]
+Chapter 4.
+<mymelax.png, id=155, 404.51125pt x 511.9125pt>
+File: mymelax.png Graphic file (type png)
+ <use mymelax.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[33
+
+] <mymelaxresults.png, id=159, 685.8122pt x 469.00218pt>
+File: mymelaxresults.png Graphic file (type png)
+
+<use mymelaxresults.png> [34 <mymelax.png> <mymelaxresults.png>]
+<mirrormelax.png, id=164, 778.91pt x 526.96875pt>
+File: mirrormelax.png Graphic file (type png)
+ <use mirrormelax.png>
+[35 <mirrormelax.png>] <optomisticexp.png, id=168, 775.89874pt x 528.97626pt>
+File: optomisticexp.png Graphic file (type png)
+
+<use optomisticexp.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<optomisticexpexploit.png, id=169, 780.9175pt x 525.965pt>
+File: optomisticexpexploit.png Graphic file (type png)
+
+<use optomisticexpexploit.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<nonoptomisticexp.png, id=170, 905.3825pt x 626.34pt>
+File: nonoptomisticexp.png Graphic file (type png)
+
+<use nonoptomisticexp.png> [36]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<nonoptomisticexpexploit.png, id=174, 780.9175pt x 526.96875pt>
+File: nonoptomisticexpexploit.png Graphic file (type png)
+
+<use nonoptomisticexpexploit.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[37 <optomisticexp.png> <optomisticexpexploit.png>] [38 <nonoptomisticexp.png> 
+<nonoptomisticexpexploit.png>]
+<alphacomp.png, id=181, 914.41624pt x 625.33624pt>
+File: alphacomp.png Graphic file (type png)
+ <use alphacomp.png> [39 <alphacomp.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 678.
+ <sarsamelax.png, id=185, 914.41624pt x 625.33624pt>
+File: sarsamelax.png Graphic file (type png)
+
+<use sarsamelax.png> [40 <sarsamelax.png>] [41] [42]
+Chapter 5.
+[43
+
+] <afterstatesredtet4well.png, id=199, 781.92125pt x 544.0325pt>
+File: afterstatesredtet4well.png Graphic file (type png)
+
+<use afterstatesredtet4well.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[44] <afterstatesredtet5well.png, id=203, 779.91376pt x 536.0025pt>
+File: afterstatesredtet5well.png Graphic file (type png)
+
+<use afterstatesredtet5well.png> [45 <afterstatesredtet4well.png> <afterstatesr
+edtet5well.png>] [46] <worthless.png, id=211, 104.39pt x 104.39pt>
+File: worthless.png Graphic file (type png)
+
+<use worthless.png> <notworthless.png, id=212, 104.39pt x 104.39pt>
+File: notworthless.png Graphic file (type png)
+
+<use notworthless.png>
+<sarsaeligredtet4well.png, id=213, 771.88374pt x 527.9725pt>
+File: sarsaeligredtet4well.png Graphic file (type png)
+
+<use sarsaeligredtet4well.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<sarsaelig4term.png, id=214, 352.31625pt x 531.9875pt>
+File: sarsaelig4term.png Graphic file (type png)
+
+<use sarsaelig4term.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<sarsaeligredtet5well.png, id=215, 766.865pt x 533.995pt>
+File: sarsaeligredtet5well.png Graphic file (type png)
+
+<use sarsaeligredtet5well.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[47 <worthless.png> <notworthless.png>] [48 <sarsaeligredtet4well.png>]
+[49 <sarsaelig4term.png> <sarsaeligredtet5well.png>]
+Chapter 6.
+<multisingle45.png, id=225, 788.9475pt x 542.025pt>
+File: multisingle45.png Graphic file (type png)
+ <use multisingle45.png>
+[50
+
+] <multisingle.png, id=229, 796.9775pt x 531.9875pt>
+File: multisingle.png Graphic file (type png)
+ <use multisingle.png>
+[51 <multisingle45.png> <multisingle.png>]
+<widthcomparrison.png, id=233, 790.955pt x 529.98pt>
+File: widthcomparrison.png Graphic file (type png)
+
+<use widthcomparrison.png> [52]
+<widthcomparrisonfulltet.png, id=238, 780.9175pt x 531.9875pt>
+File: widthcomparrisonfulltet.png Graphic file (type png)
+
+<use widthcomparrisonfulltet.png> [53 <widthcomparrison.png> <widthcomparrisonf
+ulltet.png>] <afterstatesredtetfullwell.png, id=242, 929.4725pt x 629.35126pt>
+File: afterstatesredtetfullwell.png Graphic file (type png)
+
+<use afterstatesredtetfullwell.png>
+<sarsaeligredtetfullwell.png, id=243, 934.49126pt x 632.3625pt>
+File: sarsaeligredtetfullwell.png Graphic file (type png)
+
+<use sarsaeligredtetfullwell.png> [54 <afterstatesredtetfullwell.png> <sarsaeli
+gredtetfullwell.png>]
+<sarsaeligfulltetredwell.png, id=247, 932.48375pt x 637.38126pt>
+File: sarsaeligfulltetredwell.png Graphic file (type png)
+
+<use sarsaeligfulltetredwell.png>
+<sarsaeligfulltetfullwell.png, id=248, 774.895pt x 525.965pt>
+File: sarsaeligfulltetfullwell.png Graphic file (type png)
+
+<use sarsaeligfulltetfullwell.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[55 <sarsaeligfulltetredwell.png>] [56 <sarsaeligfulltetfullwell.png>]
+Chapter 7.
+[57
+
+] (finalwriteuphandin.bbl [58]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 14.
+ (C:\texmf\tex\latex\psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 7186) in paragraph at lines 17--23
+[]\OT1/ptm/m/n/12 Yael Bdolah and Dror Liv-nat.  Re-in-force-ment learn-ing pla
+y-ing tetris.  2000.
+ []
+
+
+Underfull \hbox (badness 4954) in paragraph at lines 48--54
+[]\OT1/ptm/m/n/12 Heidi Burgiel.  How to lose at tetris.  \OT1/ptm/m/it/12 Math
+-e-mat-i-cal Gazette\OT1/ptm/m/n/12 , 81:491:194--200,
+ []
+
+[59
+
+]
+Underfull \hbox (badness 1406) in paragraph at lines 69--73
+[]\OT1/ptm/m/n/12 Colin P. Fa-hey.  Tetris spec-i-fi-ca-tions & world records, 
+2003.  URL $\OT1/pcr/m/n/12 http : / / www .
+ []
+
+) [60] (finalwriteuphandin.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1901 strings out of 95518
+ 23738 string characters out of 1189590
+ 69968 words of memory out of 1070160
+ 4817 multiletter control sequences out of 35000
+ 29072 words of font info for 57 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 607
+ 29i,8n,27p,1504b,284s stack positions out of 1500i,500n,5000p,200000b,32768s
+ 274 PDF objects out of 300000
+ 0 named destinations out of 300000
+ 201 words of extra memory for PDF output out of 65536
+<C:\texmf\fonts\type1\bluesky\cm\cmsy8.pfb>{8r.enc}<C:\texmf\fonts\type1\blue
+sky\cm\cmmi6.pfb><C:\texmf\fonts\type1\bluesky\cm\cmr8.pfb><C:\texmf\fonts\type
+1\bluesky\cm\cmmi8.pfb><C:\texmf\fonts\type1\bluesky\cm\cmr12.pfb><C:\texmf\fon
+ts\type1\bluesky\cm\cmsy10.pfb><C:\texmf\fonts\type1\bluesky\cm\cmmi12.pfb><C:\
+texmf\fonts\type1\urw\urwstd\utmr8a.pfb>
+Output written on finalwriteuphandin.pdf (63 pages, 686720 bytes).

@@ -1,0 +1,55 @@
+\contentsline {chapter}{\numberline {1}Introduction}{6}
+\contentsline {chapter}{\numberline {2}Related Work}{8}
+\contentsline {section}{\numberline {2.1}Tetris}{8}
+\contentsline {section}{\numberline {2.2}Mathematical foundations of Tetris}{10}
+\contentsline {section}{\numberline {2.3}Solving NP-Complete problems}{11}
+\contentsline {section}{\numberline {2.4}Reinforcement learning}{12}
+\contentsline {subsection}{\numberline {2.4.1}The value function }{12}
+\contentsline {subsection}{\numberline {2.4.2}Eligibility traces}{14}
+\contentsline {subsection}{\numberline {2.4.3}Exploration}{15}
+\contentsline {subsection}{\numberline {2.4.4}Existing applications}{15}
+\contentsline {subsection}{\numberline {2.4.5}Large state space successes}{16}
+\contentsline {subsubsection}{TD-Gammon}{16}
+\contentsline {subsubsection}{RoboCup-Soccer Keep-Away}{17}
+\contentsline {subsection}{\numberline {2.4.6}Tetris related reinforcement learning}{17}
+\contentsline {subsubsection}{Reduced Tetris}{17}
+\contentsline {subsubsection}{Mirror Symmetry}{19}
+\contentsline {subsubsection}{Relational reinforcement learning}{20}
+\contentsline {section}{\numberline {2.5}Conclusion}{21}
+\contentsline {chapter}{\numberline {3}Design}{22}
+\contentsline {section}{\numberline {3.1}Redesigning the Tetris state space }{22}
+\contentsline {section}{\numberline {3.2}The structure of a reinforcement learning agent }{26}
+\contentsline {subsection}{\numberline {3.2.1}The discovery of transitions}{27}
+\contentsline {subsection}{\numberline {3.2.2}The calculation of an index}{27}
+\contentsline {subsubsection}{The index adjustment due to mirror symmetry}{27}
+\contentsline {subsubsection}{The index adjustment due to further extentions in the game description}{28}
+\contentsline {subsection}{\numberline {3.2.3}Correcting for multiple subwells }{28}
+\contentsline {subsection}{\numberline {3.2.4}Exploring amongst transitions}{29}
+\contentsline {subsection}{\numberline {3.2.5}Updating the value function}{30}
+\contentsline {section}{\numberline {3.3}Application design}{30}
+\contentsline {section}{\numberline {3.4}Conclusion}{32}
+\contentsline {chapter}{\numberline {4}The Melax-defined player}{33}
+\contentsline {section}{\numberline {4.1}Melax Tetris }{33}
+\contentsline {section}{\numberline {4.2}Initial results}{34}
+\contentsline {section}{\numberline {4.3}Mirror symmetry}{35}
+\contentsline {section}{\numberline {4.4}Different exploration policies}{36}
+\contentsline {subsection}{\numberline {4.4.1}Optimistic exploration}{36}
+\contentsline {subsection}{\numberline {4.4.2}Standard exploration}{37}
+\contentsline {subsection}{\numberline {4.4.3}Conclusion}{38}
+\contentsline {section}{\numberline {4.5}Reinforcement learning constants }{39}
+\contentsline {section}{\numberline {4.6}Sarsa($\lambda $) agent}{40}
+\contentsline {section}{\numberline {4.7}Conclusion}{42}
+\contentsline {chapter}{\numberline {5}Contour Tetris }{43}
+\contentsline {section}{\numberline {5.1}Initial considerations}{43}
+\contentsline {section}{\numberline {5.2}TD(0) agent}{44}
+\contentsline {section}{\numberline {5.3}Sarsa($\lambda $) agent}{47}
+\contentsline {section}{\numberline {5.4}Conclusion}{48}
+\contentsline {chapter}{\numberline {6}Full Tetris}{50}
+\contentsline {section}{\numberline {6.1}Extending the contour agent to the full game }{50}
+\contentsline {section}{\numberline {6.2}Training subwell size vs performance}{52}
+\contentsline {section}{\numberline {6.3}Extension to the full Tetris well}{54}
+\contentsline {section}{\numberline {6.4}Extension to the full Tetris tetromino set}{55}
+\contentsline {section}{\numberline {6.5}Extension to the full Tetris game}{55}
+\contentsline {section}{\numberline {6.6}Conclusion}{56}
+\contentsline {chapter}{\numberline {7}Conclusion}{57}
+\contentsline {section}{\numberline {7.1}Possible extentions}{57}
